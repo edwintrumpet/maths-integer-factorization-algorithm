@@ -1,4 +1,4 @@
-const NUMBER = 876543
+const NUMBER = 709351
 
 const factorization = value => {
     let divisor = 2
@@ -6,7 +6,7 @@ const factorization = value => {
     let factors = []
     let times = 1
     if(number === 1){
-        factors.push({number, times})
+        factors = `${number} is prime`
     }
     while(divisor < number){
 
@@ -27,9 +27,11 @@ const factorization = value => {
         if(factors.length !== 0 && (factors[factors.length-1].number === number)){
             times = (factors[factors.length-1]).times + 1;
             (factors[factors.length-1]).times = times
-        }else{
+        }else if(factors.length !== 0){
             times = 1
             factors.push({number, times})
+        }else{
+            factors = `${number} is prime`
         }
     }
     return factors
