@@ -1,0 +1,27 @@
+{
+  "name": "integer-factorization-algorithm",
+  "version": "1.0.0",
+  "description": "This is my integer factorization algorithm",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwintrumpet/maths-integer-factorization-algorithm.git"
+  },
+  "keywords": [
+    "maths, matemáticas",
+    "factorization",
+    "factorización"
+  ],
+  "author": "Edwin García",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edwintrumpet/maths-integer-factorization-algorithm/issues"
+  },
+  "homepage": "https://github.com/edwintrumpet/maths-integer-factorization-algorithm#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
